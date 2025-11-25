@@ -6,14 +6,20 @@
   <title>Contact Us</title>
 </head>
 <body>
+
+  <!-- go to id -->
+   <p id="goto"></p> 
+   
+<!-- header section -->
    <header>
       <div>
         <div>
           <div><img src="images/images.jpg" alt="Apple Store Logo" height="20" /></div>
-
           <div><h5>Apple Store</h5></div>
         </div>
         <div>
+          
+          <!-- Navigation Menu -->
           <nav>
             <ul>
               <li>
@@ -33,35 +39,72 @@
         </div>
       </div>
     </header>
- 
+    <blockquote>
+
+ <!-- body part -->
  <div><h1>Our store images</h1></div>
 <table>
   <tr>
     <td>
-      <img src="images/store.webp" alt="Apple Store"width=350px>
+      <img src="images/store.webp" alt="Apple Store" height="250" width=250px>
     </td>
     <td>
-      <img src="images/store1.webp" alt="Apple Store"width=350px height="300px">
+      <img src="images/store1.webp" alt="Apple Store"width=250px height="250px">
     </td>
     
   </tr>
 </table>
- 
- 
- 
- 
+
+ <!-- Fieldset -->
+ <fieldset>
+    <form action="#" method="post">
+       
+        <fieldset>
+            <legend>Your Details</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br><br>
+</fieldset>
+
+<!-- Another Fieldset -->
+<fieldset>
+<h3>How did you hear about us?</h3><br>
+<select id="Google" name="google"> 
+<option value="">Google</option>
+<option value="">Youtube</option>
+<option value="">Instagram</option>
+<option value="">Facebook</option>
+                </select><br>
+                <h3>Would you like our products?</h3>
+                <input type="radio" name="accept" value="yes"> Yes
+        <input type="radio" name="accept" value="no"> No
+        
+        <br><br>
+       <input type="submit" value="Submit">
+   </fieldset>
+ </form>
+
+ <hr />
+
  <!-- Contact -->
     <section>
-      <h2">Contact</h2>
+      <h2">Contact Us:</h2>
       <pre>
-        Bishal Apple Store — Bishalapplestore@gmail.com
+        Email: Bishalapplestore@gmail.com
         Address: Bharatpur-16,Bijaynagar 
         Facebook: Bishal Apple Store 
         Youtube: Bishal Apple Store YT
+        Whatsapp: 9876000000
       </pre>
     </section>
- 
-  <hr />
+    </blockquote>
+
+    <!-- goto button -->
+  <div>
+      <button><a href="#goto">Go to top.</a></button>
+  </div>
+  
 
 </body>
 </html>
