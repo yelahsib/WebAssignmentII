@@ -1,110 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <!-- go to id -->
-   <p id="goto"></p> 
-   
-<!-- header section -->
-   <header>
-      <div>
-        <div>
-          <div><img src="images/images.jpg" alt="Apple Store Logo" height="20" /></div>
-          <div><h5>Apple Store</h5></div>
-        </div>
-        <div>
-          
-          <!-- Navigation Menu -->
-          <nav>
+    <header>
+        <nav>
             <ul>
-              <li>
-                <a href="index.html"><b>Home</b></a>
-              </li>
-              <li>
-                <a href="products.html"><b>Products</b></a>
-              </li>
-              <li>
-                <a href="reviews.html"><b>Reviews</b></a>
-              </li>
-              <li>
-                <a href="contact.html"><b>Contact</b></a>
-              </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-          </nav>
-        </div>
-      </div>
+        </nav>
     </header>
-    <blockquote>
 
- <!-- body part -->
- <div><h1>Our store images</h1></div>
-<table>
-  <tr>
-    <td>
-      <img src="images/store.webp" alt="Apple Store" height="250" width=250px>
-    </td>
-    <td>
-      <img src="images/store1.webp" alt="Apple Store"width=250px height="250px">
-    </td>
-    
-  </tr>
-</table>
+    <main>
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Your Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <p>How did you hear about us?</p>
+                <select name="source">
+                    <option value="google">Google</option>
+                    <option value="social">Social Media</option>
+                </select>
 
- <!-- Fieldset -->
- <fieldset>
-    <form action="#" method="post">
-       
-        <fieldset>
-            <legend>Your Details</legend>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email"><br><br>
-</fieldset>
+                <p>Would you like our products?</p>
+                <input type="radio" name="like" value="yes"> Yes
+                <input type="radio" name="like" value="no"> No
+                
+                <br><br>
+                <input type="submit" value="Submit Information">
+            </fieldset>
+        </form>
 
-<!-- Another Fieldset -->
-<fieldset>
-<h3>How did you hear about us?</h3><br>
-<select id="Google" name="google"> 
-<option value="">Google</option>
-<option value="">Youtube</option>
-<option value="">Instagram</option>
-<option value="">Facebook</option>
-                </select><br>
-                <h3>Would you like our products?</h3>
-                <input type="radio" name="accept" value="yes"> Yes
-        <input type="radio" name="accept" value="no"> No
-        
-        <br><br>
-       <input type="submit" value="Submit">
-   </fieldset>
- </form>
+        <section class="info">
+            <h3>Our Location:</h3>
+            <p>Bharatpur-16, Bijaynagar</p>
+            <p>Email: Bishalapplestore@gmail.com</p>
+        </section>
+    </main>
 
- <hr />
-
- <!-- Contact -->
-    <section>
-      <h2">Contact Us:</h2>
-      <pre>
-        Email: Bishalapplestore@gmail.com
-        Address: Bharatpur-16,Bijaynagar 
-        Facebook: Bishal Apple Store 
-        Youtube: Bishal Apple Store YT
-        Whatsapp: 9876000000
-      </pre>
-    </section>
-    </blockquote>
-
-    <!-- goto button -->
-  <div>
-      <button><a href="#goto">Go to top.</a></button>
-  </div>
-  
-
+    <footer>
+        <p>Connect with us on Facebook & Instagram</p>
+    </footer>
 </body>
 </html>

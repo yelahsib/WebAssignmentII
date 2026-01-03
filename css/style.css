@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, verdana;
+    background-color: #f5f5f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1d1d1f;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0071e3;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero a {
+    text-decoration: none !important; 
+}
+
+button {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px auto; 
+    transition: 0.3s;
+    text-transform: capitalize;
+    
+}
+
+button:hover {
+    background-color: #0077ed;
+}
+
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+fieldset {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea, 
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-weight:bold ;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1d1f;
+    color: white;
+    margin-top: 40px;
+}
+
+.review-box {
+    background: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

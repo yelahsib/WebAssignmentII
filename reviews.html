@@ -3,114 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products Review</title>
+    <title>Customer Reviews</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <!-- Goto id -->
-  <p id="goto"></p>
-    
-  <!-- Header -->
-  <header>
-      <div>
-        <div>
-          <div><img src="images/images.jpg" alt="Apple Store Logo" height="20" /></div>
-
-          <div><h5>Apple Store</h5></div>
-        </div>
-        <div>
-          <nav>
+    <header>
+        <nav>
             <ul>
-              <li>
-                <a href="index.html"><b>Home</b></a>
-              </li>
-              <li>
-                <a href="products.html"><b>Products</b></a>
-              </li>
-              <li>
-                <a href="reviews.html"><b>Reviews</b></a>
-              </li>
-              <li>
-                <a href="contact.html"><b>Contact</b></a>
-              </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-          </nav>
-        </div>
-      </div>
+        </nav>
     </header>
-<blockquote>
-  
-<h2>Here is the reviews of our products.</h2>
 
-    <div class="container">
+    <main>
         <h1>Customer Reviews</h1>
-        
-        <div class="product-review">
-          <img src="images/images2.jpg" alt="">
-            <h2>iPhone 17 Pro</h2>
-            <div class="review-meta">Reviewed by Bishal, Verified Purchase</div>
-            <p>I've been an iPhone user for years, but the iPhone 17 Pro has blown me away. The camera system is incredible those new ProRAW features let me capture stunning photos even in low light, and the video stabilization is buttery smooth.</p>
+        <div class="review-box">
+            <h3>iPhone 17 Pro - Reviewed by Bishal</h3>
+            <p>"The camera system is incredible, ProRAW features are amazing."</p>
         </div>
         <hr>
-        <div class="product-review">
-          <img src="images/product3.avif" alt="">
-            <h2>MacBook Air</h2>
-            <div class="review-meta">Reviewed by Binod, Verified Purchase</div>
-            <p>As a freelance designer, I needed something portable yet powerful, and the MacBook Air delivers. Weighing just 2.7 pounds, it's a breeze to carry around for client meetings or coffee shop work sessions. The M3 chip is lightning-fast—rendering complex designs in seconds without any lag. The Liquid Retina display is vibrant and accurate, making color grading a joy. .</p>
+        <div class="review-box">
+            <h3>MacBook Air - Reviewed by Binod</h3>
+            <p>"M3 chip is lightning fast, perfect for designers."</p>
         </div>
-        <hr>
-        <div class="product-review">
-            <h2>iPhone 15 Pro</h2>
-            <img src="images/product5.avif" alt="">
-            <div class="review-meta">Reviewed by Dewal, Verified Purchase</div>
-            <p>The iPhone 15 Pro has been my reliable companion for six months now, and I'm still impressed. The Dynamic Island is intuitive, displaying notifications without interrupting my flow. Photography is top-notch the 48MP main camera with 5x telephoto zoom captures professional-quality shots, perfect for my travel blog. </p>
-        </div>
-        <hr>
-        <div class="product-review">
-            <h2>Apple Vision Pro</h2>
-            <img src="images/apple-vision-pro.webp" alt="">
-            <div class="review-meta">Reviewed by Anup, Verified Purchase</div>
-            <p>Diving into the Apple Vision Pro was like stepping into another world. As a developer, I use it for immersive coding sessions and 3D modeling the spatial audio and hand tracking make interactions feel natural. .</p>
-        </div>
-    </div>
-<fieldset>
-    <form action="#" method="post">
-       
-        <fieldset>
-            <legend>Your Details</legend>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email"><br><br>
-        
-        </fieldset>
-        <fieldset>
-<legend>Your review</legend>
-<h3>How did you hear about us?</h3><br>
-<select id="Google" name="google">
-<option value="">Google</option>
-                    
-                </select><br>
-                <h3>Would you like our products?</h3>
-                <input type="radio" name="accept" value="yes"> Yes
-        <input type="radio" name="accept" value="no"> No
-        
-        <br><br>
-        <h3><b>Comments:</b></h3>
-        <textarea id="message" name="message" rows="10" cols="40"></textarea><br>
-        <input type="checkbox" name="check-box" >
-        <label for="check-box">Sign me up for email updates.</label>
-   </fieldset>
-   <input type="submit" value="Submit Review">
-    </form>
 
-    <div>
-      <button><a href="#goto">Go to top.</a></button>
-    </div>
+        <form>
+            <fieldset>
+                <legend>Submit Your Review</legend>
+                <label>Name:</label>
+                <input type="text" required>
+                <label>Comments:</label>
+                <textarea rows="5"></textarea>
+                <input type="submit" value="Submit Review">
+            </fieldset>
+        </form>
+    </main>
 
-
-</body>
-</blockquote>
-</html>
+    <footer>
+        <p>&copy; Apple Store Review Section</p>
+    </footer>
 </body>
 </html>
